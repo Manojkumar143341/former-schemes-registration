@@ -1,0 +1,100 @@
+/* Dashboard.css */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.dashboard-container h2 {
+  color: #444;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dashboard-card h3 {
+  color: #667eea;
+  font-size: 20px;
+}
+
+.dashboard-card p {
+  color: #555;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #ff758c;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  font-size: 16px;
+  outline: none;
+}
+
+button:hover {
+  background: #ff7eb3;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+.grievance-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.error-msg {
+  color: red;
+}
+
+.success-msg {
+  color: green;
+}
